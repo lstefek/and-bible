@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Main Bible view
+ 
+ @author Martin Denham [mjdenham at gmail dot com]
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainBibleView" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fadingEdgeLength="0sp"
+    >
+		<!-- removed explicit view reference because this page could contain a MyNote view
+		 net.bible.android.view.activity.page.BibleView  
+			android:id="@+id/main_text" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		/-->
+</LinearLayout>
